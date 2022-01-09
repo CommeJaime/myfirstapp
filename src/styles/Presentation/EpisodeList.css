@@ -1,11 +1,29 @@
-.list {
-    width: 100%;
+.episode-list-div {
+    width: 800px;
 }
 
-.anime-list {
+.episode-list-title {
+    margin-left: 35px;
+}
+
+.episode-list-ul {
     list-style-type: none;
-    padding: 32px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.episode-list-row {
+    width: 100%;
+    padding: 6px;
+    border-bottom: solid 1px grey;
+}
+
+.episode-list-name {
+    font-weight: bold;
+    float: left;
+}
+
+.episode-list-date {
+    float: right;
 }
