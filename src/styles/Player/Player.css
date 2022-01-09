@@ -1,0 +1,21 @@
+#all {
+    width:100%;
+    float:left;
+    text-align:center;
+}
+
+.player-playerstream {
+    margin: 0 auto;
+    background-color: #777;
+}
+
+.player-header-title {
+    display:inline-block;
+    margin-right:10px;
+    font-weight: normal;
+}
+
+.player-header-button-next {
+    display:inline-block;
+    margin-left: 25%;
+}
