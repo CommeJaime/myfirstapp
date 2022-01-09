@@ -20,10 +20,11 @@
 
 .item-price {
 	position: absolute;
-	border-radius: 20px 20px 20px 0;
-	background-color: #31b472;
+	border-radius: 30px;
+	width: 26px;
+	height: 26px;
+	background-color: #8ad4ef;
 	color: white;
-	padding: 15px;
 	right: 0;
 	top: 0;
 	font-weight: 500;
