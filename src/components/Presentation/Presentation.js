@@ -9,7 +9,7 @@ import Synopsis from "./Synopsis";
 function Presentation() {
   let actualAnime = window.location.pathname.replace("/presentation/", "");
   let animeIndex = 0;
-  AnimeList.map((anime, index) => {
+  AnimeList.forEach((anime, index) => {
     if (anime.id === actualAnime) {
       animeIndex = index;
     }
