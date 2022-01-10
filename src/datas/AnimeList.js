@@ -6,7 +6,7 @@ export const AnimeList = [
     lang: "VF",
     date: "19/04/1998 - 06/12/1998",
     longer: "26",
-    cover: "/gto.jpg",
+    cover: "/initial_d_first_stage.jpg",
     id: "initiald",
     link: [
       {
@@ -43,7 +43,7 @@ export const AnimeList = [
     longer: "43",
     date: "30/06/1999 - 24/09/2000",
     id: "gto",
-    cover: "/initial_d_first_stage.jpg",
+    cover: "/gto.jpg",
     link: [
       {
         name: "Leçon 1",
