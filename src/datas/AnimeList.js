@@ -1,14 +1,12 @@
-import gto from '../assets/gto.jpg'
-import initialDFirstStage from '../assets/initial_d_first_stage.jpg'
-
 export const AnimeList = [
   {
     name: "Initial D First Stage ( Saison 1 )",
-    synopsis: "Takumi est un jeune lycéen de 18 ans, travaillant dans une station essence avec son ami Itsuki. Cela fait 5 ans qu'il effectue des livraisons au volant d'une AE86 pour son père qui tient un magasin de Tofu. Lorsqu'il a commença à effectuer les livraisons il n'avait pas son permis. Il habite sur les collines du Mt. Akina et tous les jours très tôt le matin il effectue des livraisons de Tofu. Avec les années, il gagne en adresse, apprend à drifter dans les virages pour gagner du temps, ce qui fait qu'il maîtrise sa voiture et l'art du drift à la perfection. Il n'apprécie pas particulièrement rouler, pour lui c'est un travail et non un plaisir. Mais à la suite d'une course que son père le poussa à effectuer, il naît en lui un désir pour le street race. Takumi commence alors à s'intéresser de plus près à sa voiture et aux courses.",
+    synopsis:
+      "Takumi est un jeune lycéen de 18 ans, travaillant dans une station essence avec son ami Itsuki. Cela fait 5 ans qu'il effectue des livraisons au volant d'une AE86 pour son père qui tient un magasin de Tofu. Lorsqu'il a commença à effectuer les livraisons il n'avait pas son permis. Il habite sur les collines du Mt. Akina et tous les jours très tôt le matin il effectue des livraisons de Tofu. Avec les années, il gagne en adresse, apprend à drifter dans les virages pour gagner du temps, ce qui fait qu'il maîtrise sa voiture et l'art du drift à la perfection. Il n'apprécie pas particulièrement rouler, pour lui c'est un travail et non un plaisir. Mais à la suite d'une course que son père le poussa à effectuer, il naît en lui un désir pour le street race. Takumi commence alors à s'intéresser de plus près à sa voiture et aux courses.",
     lang: "VF",
     date: "19/04/1998 - 06/12/1998",
     longer: "26",
-    cover: initialDFirstStage,
+    cover: "/gto.jpg",
     id: "initiald",
     link: [
       {
@@ -39,12 +37,13 @@ export const AnimeList = [
   },
   {
     name: "GTO ( Great Teacher Onizuka )",
-    synopsis: "Onizuka, une racaille qui ne respecte rien ni personne, décide de devenir le plus grand professeur du Japon. Il pense ainsi vite intégrer l'éducation nationale et de fil en aiguille, finir ses vieux jours aux côtés d'une lycéenne soumise de 16 ans. Il hérite toutefois d'une classe à problèmes dans un établissement où il n'est pas le bienvenu. Fort heureusement, ses méthodes d'enseignement peu orthodoxes finissent par porter leurs fruits...",
+    synopsis:
+      "Onizuka, une racaille qui ne respecte rien ni personne, décide de devenir le plus grand professeur du Japon. Il pense ainsi vite intégrer l'éducation nationale et de fil en aiguille, finir ses vieux jours aux côtés d'une lycéenne soumise de 16 ans. Il hérite toutefois d'une classe à problèmes dans un établissement où il n'est pas le bienvenu. Fort heureusement, ses méthodes d'enseignement peu orthodoxes finissent par porter leurs fruits...",
     lang: "VF",
     longer: "43",
     date: "30/06/1999 - 24/09/2000",
     id: "gto",
-    cover: gto,
+    cover: "/initial_d_first_stage.jpg",
     link: [
       {
         name: "Leçon 1",
@@ -220,4 +219,4 @@ export const AnimeList = [
       }
     ]
   }
-]
+];
